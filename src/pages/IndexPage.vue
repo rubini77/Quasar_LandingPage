@@ -1,94 +1,57 @@
 <template>
+  <div class="bg-white">
   <q-page>
-    <div class="banner q-pb-md">
+    <div class="banner" style="background-color: white;">
+      <div class="q-pa-md">
         <div class="row justify-center">
-        <div class="col-12 col-md q-pa-md text-white">
+        <div class="col-12 col-md q-pa-md text-black">
         <div style="max-width: 650px;" class="q-ml-auto q-mr-auto">
-        <h3 class="text-weight-bolder q-mt-xl q-pt-sm">FullStack Developer Training &amp; Placement</h3>
-        <div class="mixedcolor q-pa-sm text-weight-bolder text-blue-10">100% Job Guarantee</div>
+        <h3 class="text-weight-bolder q-mt-lg">FullStack Developer Training &amp; Placement</h3>
+        <div class="mixedcolor q-pa-sm text-weight-bolder text-white">100% Job Guarantee</div>
         <div class="landing_banner">
           <p class="text-weight-bold q-pt-sm">Ranked #1 Full Stack Training Institute with Placement</p>
         </div>
         <div>
-          <p class="text-weight-medium ">Edex IT Solutions provides the Best Full Stack Training in Chennai, Bangalore &amp; Online with 100% placements. Learn Full Stack Course from Basics to Advanced and get real-time experience.</p>
+          <p class="text-weight-medium ">Edex IT Solutions provides the Best Full Stack Training in Madurai, Chennai &amp; Online with 100% placements. Learn Full Stack Course from Basics to Advanced and get real-time experience.</p>
         </div>
         <div class="text-weight-medium">
-          <div><q-icon name="check" class="q-pa-sm"></q-icon><span>Enroll Now for Trending Courses with Job Assurance</span></div>
-          <div><q-icon name="check" class="q-pa-sm"></q-icon><span>5+ Years Experinced Mentors</span></div>
-          <div><q-icon name="check" class="q-pa-sm"></q-icon><span>4+ Branches in Tamilnadu</span></div>
+          <div><q-icon name="star" class="q-pa-sm"></q-icon><span>Enroll Now for Trending Courses with Job Assurance</span></div>
+          <div><q-icon name="star" class="q-pa-sm"></q-icon><span>5+ Years Experinced Mentors</span></div>
+          <div><q-icon name="star" class="q-pa-sm"></q-icon><span>4+ Branches in Tamilnadu</span></div>
         </div>
         <div class="row q-pt-md">
-          <div clas="col-5"><q-btn class="bg-red-13 text-white text-weight-bold">Download Brouchure</q-btn></div>
-          <div class="col-6 text-weight-bolder q-pa-sm">*Available for Both <span class="text-yellow-8"> Online& Classroom</span></div>
+          <div clas="col-6"><q-btn href="DOC-20231204-WA0009" download="edex.pdf" target="_blank" class="bg-red-13 text-white text-weight-bold">Download Brouchure</q-btn></div>
+          <div class="col-6 text-weight-bolder q-pa-sm">*Available for Both <span class="text-yellow-9"> Online& Classroom</span></div>
         </div>
        </div>
       </div>
 
       <div class="col-12 col-md gt-sm">
         <div style="max-width: 550px;" class="q-ml-auto q-mr-auto">
-          <div class="q-mt-xl q-pt-xl">
-            <div class="q-pa-md scroll shadow-up-9 " style="height: 400px;border-radius: 20px;background-color: white;">
-              <div>
-                <div class="text-weight-bold">Course Path :</div>
-                <ul>
-                  <li class="q-py-xs">Front End Development with HTML, CSS, and Javascript</li>
-                  <li class="q-py-xs">Backend Development with Core Java</li>
-                  <li class="q-py-xs">Web Services with Spring and Spring Boot</li>
-                  <li class="q-py-xs">SQL and Databases</li>
-                </ul>
-                <div class="text-weight-bold">Valur-Added Courses :</div>
-                <ul>
-                  <li class="q-py-xs">API creation using ExpressJS and MongoDB</li>
-                  <li class="q-py-xs">CSS Preprocessor (Intermediate + Advanced)</li>
-                  <li class="q-py-xs">UI/UX Fundamentals</li>
-                  <li class="q-py-xs">Responsive Web Design Frameworks using Material UI</li>
-                  <li  class="q-py-xs" >DevSecOps Tools Overview</li>
-                  <li  class="q-py-xs" >Application Deployment on Cloud</li>
-                </ul>
-              </div>
-              <p class="row">
-                <img src="/completion-01.png"><span class="q-mt-xs q-pa-xs text-weight-bolder">Course Completion Certificate</span></p>
-            </div>
+          <div class="q-pt-md">
+            <div class="q-mt-lg">
+              <img src="../assets/banner-6-desktop.jpg" style="height: 440px;width: 440px;">
+            </div>       
           </div>
         </div>
       </div>
-
+    </div>
     </div>
   </div>
   <div class="lt-md justify-center">
-        <div style="max-width: 550px;" class="q-ml-auto q-mr-auto">
+        <div style="max-width: 550px;display: flex;justify-content: center;align-items: center;" >
           <div class="">
-            <div class="q-pa-md shadow-up-9 " style="height:;background-color: white;">
-              <div>
-                <div class="text-weight-bold">Course Path :</div>
-                <ul>
-                  <li class="q-py-xs">Front End Development with HTML, CSS, and Javascript</li>
-                  <li class="q-py-xs">Backend Development with Core Java</li>
-                  <li class="q-py-xs">Web Services with Spring and Spring Boot</li>
-                  <li class="q-py-xs">SQL and Databases</li>
-                </ul>
-                <div class="text-weight-bold">Valur-Added Courses :</div>
-                <ul>
-                  <li class="q-py-xs">API creation using ExpressJS and MongoDB</li>
-                  <li class="q-py-xs">CSS Preprocessor (Intermediate + Advanced)</li>
-                  <li class="q-py-xs">UI/UX Fundamentals</li>
-                  <li class="q-py-xs">Responsive Web Design Frameworks using Material UI</li>
-                  <li  class="q-py-xs" >DevSecOps Tools Overview</li>
-                  <li  class="q-py-xs" >Application Deployment on Cloud</li>
-                </ul>
-              </div>
-              <p class="row">
-                <img src="/completion-01.png"><span class="q-mt-xs q-pa-xs text-weight-bolder">Course Completion Certificate</span></p>
-
-            </div>
+            <div class="">
+              <img src="../assets/banner-6-desktop.jpg" style="height: 440px;width: 370px;">
+            </div>       
           </div>
         </div>
       </div>
 
-<div class="bg-blue-9 q-pa-md">
+<div class="bg-blue-9 q-pa-lg">
   <div class="text-center">
     <div class="row q-gutter">
-      <div class="col-12 col-md col-sm-4 q-pa-sm align-center" v-for="img in images">
+      <div class="col-12 col-md col-sm-4 align-center" v-for="img in images">
       <img :src="img">
       </div>
     </div>
@@ -96,17 +59,23 @@
 </div>
 
 <!-- program highlights -->
-<div class="bg-blue-grey-1 q-pb-lg">
+<section id="programHighlights">
+<div class="bg-white q-pb-lg">
   <div class="q-pa-md text-center">
-      <div class="row q-px-xl q-pt-lg text-h5 text-weight-bold">Program Highlights</div>
+      <div class="row q-px-xl q-pt-lg q-pb-sm text-h5 text-weight-bold" 
+      style="display: flex;flex-direction: column;justify-content: center;align-items: center;">
+        Program Highlights</div>
+        <div class="radiantthemes-separator-block" style="width: 100px; height: 2px;">
+          <div class="radiantthemes-separator-block-gap"></div>
+        </div>
 
       <div class="text-center">
       <div class="row q-pa-md q-gutter-sm">
          <q-card class="my-card col-12 col-sm-12 col-md align-center" v-for="x in cardItems">
           <div class="text-center bg-blue-grey-1"><img :src="x.img" class="img-fluid"></div>
               <q-card-section>
-                <div class="text-h6">{{ x.name }}</div>
-                <div class="">{{ x.des }}</div>
+                <div class="text-weight-bold">{{ x.name }}</div>
+                <div class="q-py-md text-blue-grey-8">{{ x.des }}</div>
               </q-card-section>
     </q-card>
     </div> 
@@ -114,104 +83,116 @@
 
   </div>
 </div>
-
+</section>
 </q-page>
 
 <q-page>
-  <div class="row">
-    <div class="col text-center">
-    <q-parallax :height="500" :speed="1.5">
-      <template v-slot:media>
-        <img src="/besanttechnologies-career.webp" style="background: #0e2f53 none repeat scroll 0 0;opacity: 0.6;">
-      </template>
-     <div class="q-pa-sm">
-      <h4 class="text-black text-weight-bold">Want to pursue the Best Full Stack Training with Edex Technologies?</h4>
-      <p class="text-h6 text-weight-bold" style="color: rgb(31, 31, 31);">Edex Tech Full Stack Developer Course is all about your growth as a developer.
-         Our hands on training will make you a jack of all trades, which is the current demand in the market of developers.</p>
-         <q-btn class="bg-deep-orange-14 text-white">Get Started</q-btn>
+  <div class="q-pb-lg" id="startnow">
+  <div class="q-pa-md text-center">
+      <div class="row q-px-xl q-pb-sm text-h5 text-weight-bold text-black" 
+      style="display: flex;flex-direction: column;justify-content: center;align-items: center;">
+        Start With Us</div>
+        <div class="radiantthemes-separator-block" style="width: 100px; height: 2px;">
+          <div class="radiantthemes-separator-block-gap"></div>
         </div>
-    </q-parallax>
-  </div>
+  <div  class="q-pa-md" style="display: flex;flex-direction:column;justify-content: center;align-items: center;">
+    <div class="row bg-white q-pa-lg" style="border-radius: 20px;">
+      <div class="col-6">
+        <div class="text-weight-bold text-blue-7">Let Us Help</div>
+          <div class="text-blue-8 text-weight-bold">Finding Your <span class="text-weight-bold text-black">Right Courses</span></div>
+      </div>
+      <div class="col-6 text-center q-pt-sm">
+          <q-btn href="https://edextech.io/" target="_blank" class="bg-deep-orange-9 text-white text-weight-bold" style="border-radius: 5px;">Get started</q-btn>
+      </div>
+    </div>
   </div>
 
-<div class="bg-blue-9 q-pa-lg">  
-<div class="q-pa-md">
-  <div class="row q-px-lg q-pt-lg q-pb-lg justify-center  text-h5 text-weight-bold text-white">Recommened Combo Courses</div>
+<div class="q-px-xl">
+  <div class="row q-gutter-sm">
+    <div class="col-12 col-md bg-white" style="border-radius: 20px;">
+      <div class="row text-center">
+        <div class="col text-center q-pa-lg">
+          <div>
+            <div class="text-weight-bold text-blue-9">Enroll Now at Edex</div>
+            <div class=" text-blue-grey-9 text-weight-bold q-pa-sm">Discover How We Simplify Your Learning Path</div>
+            <div><q-btn @click="enquiry = true" class="bg-deep-orange-9 text-white text-weight-bold" style="border-radius: 5px;">Book A Free Demo</q-btn>
+              <q-dialog v-model="enquiry">
+              <div class="col-12 col-md bg-white" style="max-width: 500px;border-radius: 20px;border:1px solid grey">
+    
+     <div class="q-pa-md bg-blue-grey-2 text-center  text-h6 text-weight-bold" style="border-top-right-radius: 15px;border-top-left-radius: 15px;">Book a free demo</div>
+    
+    <q-form
+            @submit="onSubmit"
+            @reset="onReset"
+            class="q-gutter-md q-pa-md"
+            style=""
+            >
+            <q-input
+            outlined
+            v-model="name"
+            label="Your name *"
+            hint="Name and surname"
+            lazy-rules
+            :rules="[ val => val && val.length > 0 || 'Please Enter Your Name']"
+            />
 
-  <div>
-    <div class="row q-pa-sm q-gutter-sm">
-      <q-card class="my-card col-12 col-sm-12 col-md" v-for="x in comboCourses">
-          <div class="bg-blue-grey-1 q-pa-sm">
-            <div class="row q-gutter-sm">
-            <div class="col-3 q-pa-sm"><img :src="x.img" style="height: 50px;width: 60px;"></div>
-            <div class="col q-pt-lg text-weight-bold"><span>{{ x.h3 }}</span>
-            <span><img src=""></span></div>
+            <q-input
+            outlined
+            type="email"
+            v-model="email"
+            label="Your Email *"
+            hint="Enter Your Email "
+            lazy-rules
+            :rules="[
+            val => !!val || 'Please type your email',
+            val => /.+@.+\..+/.test(val) || 'Please type a valid email'
+            ]"
+            />
+            <q-input
+            outlined
+            type="text"
+            v-model="mobile"
+            label="Your mobile *"
+            hint="Enter your mobile number"
+            lazy-rules
+            :rules="[ val => val && val.length == 10 || 'Please Enter Your Mobile Number']"
+            />
+
+            <div class="text-center">
+            <q-btn label="Submit" type="submit" color="deep-orange-9"/>
+
+            </div>
+    </q-form>
+  </div> 
+          </q-dialog>
+
             </div>
           </div>
-              <q-card-section class="text-center">
-                <div class="row q-pa-md">
-                  <div class="col" style="border-right: 1px solid rgb(141, 140, 140);">
-                    <div class="text-blue-grey-9 text-weight-bold">Skill Level</div>
-                    <div class="text-blue-grey-7">Beginner</div>
-                  </div>
-                  <div class="col" style="border-right: 1px solid rgb(141, 140, 140);">
-                    <div class="text-blue-grey-9 text-weight-bold">Hours</div>
-                    <div class="text-blue-grey-7">30</div>
-                  </div>
-                  <div class="col">
-                    <div class="text-blue-grey-9 text-weight-bold">Learners</div>
-                  <div class="text-blue-grey-7">{{ x.c3 }}</div>
-                </div>
-                </div>
-              </q-card-section>
-    </q-card>
-    
+        </div>
+         </div>
     </div>
-  </div>
-  <div class="text-center">
-  <div class="row bg-white q-pa-md" style="border-radius: 5px;">
-    <div class="col q-pa-sm">
-      <div class="text-weight-bolder q-pa-sm text-h6">Enroll Now at 40,000/- Only</div>
-      <div><q-btn class="bg-deep-orange-14 text-white">Enroll Now</q-btn></div>
-    </div>
+    <div class="col-12 col-md bg-white" style="border-radius: 20px;">
+      <div class="row text-center">
+        <div class="col text-center q-pa-lg">
+          <div>
+            <div class="text-weight-bold text-blue-9">Enroll Now at Edex</div>
+            <div class=" text-blue-grey-9 text-weight-bold q-pa-sm">Start Climbing Up Your Career Ladder With Edex</div>
+            <div><q-btn href="https://edextech.io/" target="_blank" class="bg-deep-orange-9 text-white text-weight-bold" style="border-radius: 5px;">Explore Courses</q-btn></div>
+          </div>
+        </div>
+        </div>
+    </div> 
   </div>
 </div>
 </div>
 </div>
-
-  
-
-</q-page>
-<q-page class="">
-<!-- tools covered -->
-<div class="text-center">
-  <div class="row q-px-xl q-pt-lg text-h5 text-weight-bold q-pa-lg">Tools Covered</div>
-  <div class="text-center q-pa-lg">
-    <div class="row">
-    <div class="col-12 col-md col-sm-4  align-center" v-for="x in toolsImages">
-      <div class="q-pa-md">
-        <q-img :src="x.img" style="height: 100px;width: 150px;"></q-img>
-        <div class="text-blue-grey-10 text-weight-bold q-pa-sm">{{ x.title }}</div>
-      </div>  
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="col-12 col-md col-sm-4  align-center" v-for="x in toolsImagesTwo">
-      <div class="q-pa-md">
-        <q-img :src="x.img" style="height: 100px;width: 150px;"></q-img>
-        <div class="text-blue-grey-10 text-weight-bold q-pa-sm">{{ x.title }}</div>
-      </div>  
-    </div>
-  </div>
-
-  </div>
-</div>
-<!-- tools covered end -->
 
 <!-- skills covered -->
 <div class="text-center bg-blue-grey-1">
-  <div class="row q-px-xl q-pt-lg text-h5 text-weight-bold q-pa-lg">Skills Covered</div>
+  <div class="row q-px-xl justify-center q-pt-lg text-h5 text-weight-bold q-pb-sm">Skills Covered</div>
+  <div class="radiantthemes-separator-block" style="width: 100px; height: 2px;">
+    <div class="radiantthemes-separator-block-gap"></div>
+  </div>
   <div class="text-center q-pa-lg">
   <div class="row">
     <div class="col-12 col-md col-sm-4  align-center" v-for="x in skillImages">
@@ -236,30 +217,132 @@
 </div>
 <!-- skills covered end -->
 
-</q-page>
-<q-page>
-  <div class="q-pa-lg q-mx-md">
-    <div class="q-pa-md">
-      <div class="row  q-pt-sm q-pb-sm  text-h5 text-weight-bold">Projects Milestones</div>
+<section id="courseDetails">
+<div class="q-pa-lg">  
+<div class="q-pa-md text-center">
+  <div class="row q-px-lg q-pt-lg q-pb-sm justify-center  text-h5 text-weight-bold ">Course Content</div>
+  <div class="radiantthemes-separator-block" style="width: 100px; height: 2px;">
+    <div class="radiantthemes-separator-block-gap"></div>
+  </div>
+  <div>
+    <div class="row q-pa-sm q-gutter-sm">
+      <q-card class="my-card col-12 col-sm-12 col-md" v-for="x in comboCourses">
+          <div class="bg-blue-grey-1 q-pa-sm">
+            <div class="row q-gutter-sm">
+            <div class="col-3 q-pa-sm"><img :src="x.img" style="height: 50px;width: 90px;"></div>
+            <div class="col q-pt-lg q-px-md text-weight-bold"><span>{{ x.h3 }}</span>
+            <span><img src=""></span></div>
+            </div>
+          </div>
+              <q-card-section class="text-center">
+                <div class="row q-pa-md">
+                  <div class="col" style="border-right: 1px solid rgb(141, 140, 140);">
+                    <div class="text-blue-grey-9 text-weight-bold">Skill Level</div>
+                    <div class="text-blue-grey-7">Advanced</div>
+                  </div>
+                  <div class="col" style="border-right: 1px solid rgb(141, 140, 140);">
+                    <div class="text-blue-grey-9 text-weight-bold">days</div>
+                    <div class="text-blue-grey-7">60</div>
+                  </div>
+                  <div class="col">
+                    <div class="text-blue-grey-9 text-weight-bold">Learners</div>
+                  <div class="text-blue-grey-7">{{ x.c3 }}</div>
+                </div>
+                </div>
+              </q-card-section>
+    </q-card>
+    
+    </div>
+  </div>
+  <div class="text-center">
+  <div class="row bg-white q-pa-md" style="border-radius: 5px;">
+    <div class="col q-pa-sm">
+      <div class="text-weight-bolder q-pa-sm text-h6">Enroll Now at 40,000/- Only</div>
+      <div><q-btn @click="enquiry = true" class="bg-deep-orange-14 text-white">Enroll Now</q-btn>
+        <q-dialog v-model="enquiry">
+              <div class="col-12 col-md bg-white" style="max-width: 500px;border-radius: 20px;border:1px solid grey">
+    
+     <div class="q-pa-md bg-blue-grey-2 text-center  text-h6 text-weight-bold" style="border-top-right-radius: 15px;border-top-left-radius: 15px;">Enquiry Now</div>
+    
+    <q-form
+            @submit="onSubmit"
+            @reset="onReset"
+            class="q-gutter-md q-pa-md"
+            style=""
+            >
+            <q-input
+            outlined
+            v-model="name"
+            label="Your name *"
+            hint="Name and surname"
+            lazy-rules
+            :rules="[ val => val && val.length > 0 || 'Please Enter Your Name']"
+            />
+
+            <q-input
+            outlined
+            type="email"
+            v-model="email"
+            label="Your Email *"
+            hint="Enter Your Email "
+            lazy-rules
+            :rules="[
+            val => !!val || 'Please type your email',
+            val => /.+@.+\..+/.test(val) || 'Please type a valid email'
+            ]"
+            />
+            <q-input
+            outlined
+            type="text"
+            v-model="mobile"
+            label="Your mobile *"
+            hint="Enter your mobile number"
+            lazy-rules
+            :rules="[ val => val && val.length == 10 || 'Please Enter Your Mobile Number']"
+            />
+
+            <div class="text-center">
+            <q-btn label="Submit" type="submit" color="deep-orange-9"/>
+
+            </div>
+    </q-form>
+  </div> 
+          </q-dialog>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</section>
+
+
+<div class="bg-blue-grey-1">
+  <div class="q-pa-lg q-mx-md bg-blue-grey-1">
+    <div class="q-pa-md text-center">
+      <div class="row justify-center q-pt-sm q-pb-sm  text-h5 text-weight-bold">Added Advantages</div>
+      <div class="radiantthemes-separator-block justify-center" style="width: 100px; height: 2px;">
+          <div class="radiantthemes-separator-block-gap"></div>
+      </div>
         <div class="q-pa-lg">
           <div class="row q-pa-sm q-gutter-md">
-            <q-card class="my-card col-12 col-sm-12 col-md" v-for="x in projects">
+            <q-card class="my-card col-12 col-sm-12 col-md" v-for="x in best">
               <div class="bg-blue-9 q-pa-md">
                 <div class="text-weight-bold q-pa-sm text-h6 text-white">{{ x.title }}</div>
               </div>
               <q-card-section class="q-pa-lg">
-                <div class="text-weight-bold q-pa-sm">{{ x.subtitle }}</div>
+                <div class="text-weight-bold"><img :src="x.img" style="height: 100px;width: 100px;"></div>
                 <div class="text-blue-grey-9">{{ x.des }}</div>
               </q-card-section>
             </q-card>
           </div>
           <div class="row q-pa-sm q-gutter-md">
-            <q-card class="my-card col-12 col-sm-12 col-md" v-for="x in projectsTwo">
+            <q-card class="my-card col-12 col-sm-12 col-md" v-for="x in bestTwo">
               <div class="bg-blue-9 q-pa-md">
                 <div class="text-weight-bold q-pa-sm text-h6 text-white">{{ x.title }}</div>
               </div>
               <q-card-section class="q-pa-lg">
-                <div class="text-weight-bold q-pa-sm">{{ x.subtitle }}</div>
+                <div class="text-weight-bold"><img :src="x.img" style="height: 100px;width: 100px;"></div>
                 <div class="text-blue-grey-9">{{ x.des }}</div>
               </q-card-section>
             </q-card>
@@ -267,25 +350,62 @@
         </div>
     </div>
   </div>
+</div>
+
+ <!-- tools covered -->
+<div class="text-center bg-white">
+  <div class="row q-px-xl justify-center q-pt-lg q-pb-sm text-h5 text-weight-bold ">Tools Covered</div>
+  <div class="radiantthemes-separator-block" style="width: 100px; height: 2px;">
+    <div class="radiantthemes-separator-block-gap"></div>
+  </div>
+  <div class="text-center q-pa-lg">
+    <div class="row">
+    <div class="col-12 col-md col-sm-4  align-center" v-for="x in toolsImages">
+      <div class="q-pa-md">
+        <q-img :src="x.img" style="height: 100px;width: 150px;"></q-img>
+        <div class="text-blue-grey-10 text-weight-bold q-pa-sm">{{ x.title }}</div>
+      </div>  
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-12 col-md col-sm-4  align-center" v-for="x in toolsImagesTwo">
+      <div class="q-pa-md">
+        <q-img :src="x.img" style="height: 100px;width: 150px;"></q-img>
+        <div class="text-blue-grey-10 text-weight-bold q-pa-sm">{{ x.title }}</div>
+      </div>  
+    </div>
+  </div>
+
+  </div>
+</div>
+<!-- tools covered end -->
+
+
+   
+
 
   <!-- why edex -->
-  <div class="q-pa-lg bg-blue-grey-1">
-    <div class="q-pa-md">
-      <div class="row  q-pt-sm q-pb-sm  text-h5 text-weight-bold">Why Edex</div>
+  <div class="q-pa-lg ">
+    <div class="q-pa-md text-center">
+      <div class="row  q-pt-sm justify-center text-h5 text-weight-bold">Why Edex</div>
+      <div class="radiantthemes-separator-block" style="width: 90px; height: 2px;">
+    <div class="radiantthemes-separator-block-gap"></div>
+  </div>
       <div class="q-pa-lg">
         <div class="row q-pa-sm q-gutter-md">
-          <q-card class="my-card col-12 col-sm-12 col-md" v-for="x in arrayOne">
+          <q-card class="my-card col-12 col-sm-12 col-md" v-for="x in arrayOne" style="border-bottom: 3px solid #0e81de;">
              <div class="row q-pa-sm">
               <div class="col-4"><img :src="x.img" style="height: 70px;width: 90px;"> </div>
-              <div class="col q-px-md" style="display: flex;flex-direction: column;justify-content: center;align-items: center;">{{ x.des }}</div>
+              <div class="col q-px-md text-blue-grey-10" style="display: flex;flex-direction: column;justify-content: center;align-items: center;">{{ x.des }}</div>
              </div>
             </q-card>
         </div>
         <div class="row q-pa-sm q-gutter-md">
-            <q-card class="my-card col-12 col-sm-12 col-md" v-for="x in arrayTwo">
+            <q-card class="my-card col-12 col-sm-12 col-md" v-for="x in arrayTwo" style="border-bottom: 3px solid #0e81de;">
               <div class="row q-pa-sm">
                 <div class="col-4"><img :src="x.img" style="height: 70px;width: 90px;"> </div>
-                <div class="col q-px-md text-center" style="display: flex;flex-direction: column;justify-content: center;align-items: center;">{{ x.des }}</div>
+                <div class="col q-px-md text-center text-blue-grey-10" style="display: flex;flex-direction: column;justify-content: center;align-items: center;">{{ x.des }}</div>
              </div>
             </q-card>
           </div>
@@ -294,180 +414,109 @@
   </div>
 
 
-  <div class="q-pa-md bg-blue-8">
-    <div class="row q-px-xl q-pt-md text-white justify-center text-h5 text-weight-bold">Learning Path</div>
+
+
+<section id="contact">
+<div class="q-pa-md" style="display: flex;justify-content: center;align-items: center;">
+      <div class="q-pa-md text-center">
+        <div class="row  q-pt-sm q-pb-sm justify-center text-h5 text-weight-bold">Enquiry Now</div>
+      <div class="radiantthemes-separator-block" style="width: 90px; height: 2px;">
+    <div class="radiantthemes-separator-block-gap"></div>
+  </div>
+  <div class="row q-pa-sm" style="display: flex;flex-direction: row;justify-content: space-evenly;align-items: center;">
+  <div class="col-12 col-md gt-xs" style="text-align: center;">
+    <img src="/logo-edex.jpg" style="height: 70px;width: 70px;">
+    <div class="text-h6 text-weight-bold">Empowering Your Future in IT</div>
+    <div class="q-px-md text-weight-bold">We are happy to help you 24/7.</div>
+      <div class="q-px-xl q-py-md text-blue-grey-9">Unlock Your Potential with IT Training.Embark on a journey to success with our comprehensive IT training programs. 
+    Our expert instructors and hands-on learning approach ensure you gain practical knowledge and real-world experience.
+    Join us to build a solid foundation and excel in the dynamic field of information technology.
+  </div>
     
-   
-    <div class=" q-ma-lg q-pa-md" style="display: flex;justify-content: center;align-items: center;flex-direction: column;">
-    <q-stepper
-      v-model="step"
-      header-nav
-      color="primary"
-      animated
-      style="max-width: 990px ;"
+    <img src="../assets/program.jpg">
+       
+  </div>
+  <div class="lt-sm">
+      <img src="/logo-edex.jpg" style="height: 70px;width: 70px;">
+    <div class="text-h6 q-pa-sm text-weight-bold">Empowering Your Future in IT</div>
+    <div class="q-pa-xs text-weight-bold">We are happy to help you 24/7.</div>
       
-    >
-      <q-step
-        :name="1"
-        title="MILESTONE 1"
-        icon="check"
-        :done="done1"
-        
-        
-      >
-      <div class="text-weight-medium">Frontend Tools and Technologies :</div>
-              
-              <ul v-for="x in frontend" type="none">
-                <li><q-icon name="star" color="blue-9" style="font-size: 20px;" class="q-px-sm"></q-icon> {{ x }}</li>
-              </ul> 
-              
-      <div><q-btn class="bg-deep-orange-9 text-white q-pa-sm">Download Curriculum</q-btn></div>
-         
-      </q-step>
-
-      <q-step
-        :name="2"
-        title="MILESTONE 2"
-        caption=""
-        icon="check"
-        :done="done2"
-        
-        
-      >
-      <div class="text-weight-medium">Backend Tools and Technologies :</div>
-              
-              <ul v-for="x in backend" type="none">
-                <li><q-icon name="star" color="blue-9" style="font-size: 20px;"  class="q-px-sm"></q-icon> {{ x }}</li>
-              </ul> 
-              
-      <div><q-btn class="bg-deep-orange-9 text-white q-pa-sm">Download Curriculum</q-btn></div>
-         
-      </q-step>
-
-      <q-step
-        :name="3"
-        title="MILESTONE 3"
-        icon="check"
-        
-        
-      
-      >
-      <div class="text-weight-medium">Database:</div>
-              
-              <ul v-for="x in database" type="none">
-                <li><q-icon name="star" color="blue-9" style="font-size: 20px;"  class="q-px-sm"></q-icon> {{ x }}</li>
-              </ul> 
-              <div class="text-weight-medium">Interview Preparations:</div>
-              
-              <ul v-for="x in interview" type="none">
-                <li><q-icon name="star" color="blue-9" style="font-size: 20px;"  class="q-px-sm"></q-icon> {{ x }}</li>
-              </ul> 
-              
-      <div><q-btn class="bg-deep-orange-9 text-white q-pa-sm">Download Curriculum</q-btn></div>
-         
-      </q-step>
-    </q-stepper>
-  </div>
-<!-- </div> -->
-
-  </div>
-
-    <div class="container" style="display: flex;flex-direction: column;justify-content: center;align-items: center;">
-      <div class="box q-pa-md">
-        <div class="row q-pa-md">
-            <q-card class="col" style="border-radius: 5px;">
-              <div class="bg-blue-grey-2 text-black q-pa-md">
-                <div class="text-weight-bold q-pa-sm text-h6">Live Virtual Classroom</div>
-              </div>
-              <q-card-section class="q-pa-md">
-                <ul class="q-pl-xl" >
-                  <li class="q-py-md text-weight-medium">Guaranteed job interviews until you get placed</li>
-                  <li class="q-py-md text-weight-medium">Intensive interview preparation from Day 1</li>
-                  <li class="q-py-md text-weight-medium">Real-life interview case study analysis</li>
-                </ul>
-                <div class="q-pa-sm text-h6 text-weight-bold"><b>For more details consult our career counselors</b></div>
-                <div class="text-center q-pa-sm"><q-btn class="bg-deep-orange-14 text-white">Enroll Now</q-btn></div>
-              </q-card-section>
-            </q-card>
-          </div>
-
-      </div>
     </div>
+  <div class="col-12 col-md" style="min-width: 320px;border-bottom: 10px solid #0e81de;border-left: 8px solid #0e81de;border-radius: 20px;">
+    
+    <div class="q-pa-md bg-blue-grey-1 text-h6 text-weight-bold" style="border-top-right-radius: 15px;border-top-left-radius: 15px;">Submit Your Details</div>
+    
+    <q-form
+            @submit="onSubmit"
+            @reset="onReset"
+            class="q-gutter-md q-pa-md"
+            style=""
+            >
+            <q-input
+            outlined
+            v-model="name"
+            label="Your name *"
+            hint="Name and surname"
+            lazy-rules
+            :rules="[ val => val && val.length > 0 || 'Please Enter Your Name']"
+            />
 
+            <q-input
+            outlined
+            type="email"
+            v-model="email"
+            label="Your Email *"
+            hint="Enter Your Email "
+            lazy-rules
+            :rules="[
+            val => !!val || 'Please type your email',
+            val => /.+@.+\..+/.test(val) || 'Please type a valid email'
+            ]"
+            />
+            <q-input
+            outlined
+            type="text"
+            v-model="mobile"
+            label="Your mobile *"
+            hint="Enter your mobile number"
+            lazy-rules
+            :rules="[ val => val && val.length == 10 || 'Please Enter Your Mobile Number']"
+            />
 
-<div class="bg-blue-9 q-pb-lg">
-  <div class="text-center">
-    <div style="display: flex; flex-direction: column;justify-content: center;align-items: center;">
-    <div class="text-weight-bold text-h5 text-white q-pa-lg ">
-      Do you want to know how the Full Stack Development<br>
-      Course will be an excellent fit for your career?
-    </div>
-    <div class="" >
-      <q-card class="col" style="border-radius: 5px;min-width: 320px;">
-          <div class="bg-blue-grey-2 text-black q-pa-md">
-          <div class="text-weight-bold text-h6">Request a Call Now</div>
-      </div>
-    <q-card-section>
-      <q-form
-       @submit="onSubmit"
-       @reset="onReset"
-       class="q-gutter-md bg-white q-pa-md"
-      >
-  <q-input
-    outlined
-    v-model="name"
-    label="Your name *"
-    hint="Name and surname"
-    lazy-rules
-    :rules="[ val => val && val.length > 0 || 'Please Enter Your Name']"
-  />
+            <div class="text-center">
+            <q-btn label="Submit" type="submit" color="deep-orange-9"/>
 
-  <q-input
-    outlined
-    type="email"
-    v-model="email"
-    label="Your Email *"
-    hint="Enter Your Email "
-    lazy-rules
-    :rules="[
-      val => !!val || 'Please type your email',
-    val => /.+@.+\..+/.test(val) || 'Please type a valid email'
-  ]"
-  />
-  <q-input
-    outlined
-    type="number"
-    v-model="mobile"
-    label="Your mobile *"
-    hint="Enter your mobile number"
-    lazy-rules
-    :rules="[ val => val && val.length == 10 || 'Please Enter Your Mobile Number']"
-  />
-
-  <q-toggle v-model="accept" label="I accept the license and terms" />
-
-  <div>
-    <q-btn label="Submit" type="submit" color="primary"/>
-    <q-btn label="Reset" type="reset" color="primary" flat class="q-ml-sm" />
-  </div>
-</q-form>
-</q-card-section>
-</q-card>
-
-</div>
-  </div>
+            </div>
+    </q-form>
   </div>
 </div>
+      
+      
+  </div>
+</div>
+</section> 
 
 <!-- place QPageScroller at end of page -->
 <q-page-scroller position="bottom-right" :scroll-offset="150" :offset="[18, 18]">
     <q-btn fab icon="keyboard_arrow_up" color="red" />
 </q-page-scroller>
 
+<div class="bg-blue-grey text-white" style="display: flex;justify-content: center;align-items: center;">
+
+  <div class="row q-pa-sm justify-center">
+    <div class="q-pa-sm">Chennai: +918055224403</div>
+    <div class="q-pa-sm">Madurai: +918055224403</div>
+    <div class="q-pa-sm">Online: +918055224403</div>
+    <div class="q-pa-sm"><q-icon name="email" class="q-pa-xs"></q-icon>contact@edextech.in</div>
+
+  </div>
+</div>
+
 <div class="bg-black q-pa-sm text-center">
-  <div class="text-white q-pa-sm">Copyright 2023 Edex | All Rights Resrved</div>
+  <div class="text-white q-pa-md">Copyright 2023 Edex | All Rights Resrved</div>
 </div>
 </q-page>
+</div>
 </template>
 
 <script>
@@ -486,7 +535,7 @@ export default defineComponent({
     const mobile = ref(null)
     const accept = ref(false)
     return{
-      
+      enquiry: ref(false),
       step: ref(1),
       name,
       email,
@@ -534,9 +583,9 @@ export default defineComponent({
                {img:"card_icon_4.png",name:"Real-life Projects and Bootcamps",des:"Learners will work on real-life scenarios from various domains to get application knowledge."}
       ],
       comboCourses:[{img:"/combo_course_1.png",
-                            h3:"HTML+CSS+JS",p:"5.0(1965)",c3:"2360"},
-                    {img:"/combo_course_2.jpg",h3:"ANGULAR & REACT",p:"5.0(1865)",c3:"1989"},
-                    {img:"/combo_course_3.jpg",h3:"PYTHON & JAVA+SQL",p:"5.0(1970)",c3:"2051"}]
+                            h3:"FRONTEND",p:"5.0(1965)",c3:"150+"},
+                    {img:"/backend.jpg",h3:"BACKEND",p:"5.0(1865)",c3:"150+"},
+                    {img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR606sHWwbqvnffryckkukv9IwycRCF3sXZxQ&usqp=CAU",h3:"DATABASE",p:"5.0(1970)",c3:"150+"}]
       
     , toolsImages:[{img:"/Tools_1.png",title:"JAVA DEVELOPMENT KIT"},
                   {img:"/Tools_2.png",title:"ECLIPSE"},
@@ -573,6 +622,12 @@ export default defineComponent({
             
             
                   ],
+    best:[{title:"100% Placement",img:"https://www.getintech.in/wp-content/uploads/2022/09/assured-placement-150x150.png",des:"Our Quality Placement Team assured to get 100% Placement to our students as a Fresher or Experienced Placement."},
+          {title:"Low Cost Budget",img:"https://www.getintech.in/wp-content/uploads/2022/09/cost-150x150.png",des:"Learn Software courses in Low cost with Installment Payment Option. You can get Course and Placement in Reasonable Fees."},
+          {title:"World Class Amenities",img:"https://www.getintech.in/wp-content/uploads/2022/09/parking-150x150.png",des:"Our Institution Building has been equipped with Fully Air conditioned, Projector Classrooms and Large Parking Area."}],
+    bestTwo:[{title:"Elastic Timing",img:"https://www.getintech.in/wp-content/uploads/2022/09/flexible-timing-150x150.png",des:"Our students can select the flexible time slots for their classroom and Online Sessions. Backup classes also available for missed Sessions."},
+          {title:"Mock Interview",img:"https://www.getintech.in/wp-content/uploads/2022/09/mock-interview-150x150.png",des:"Our Mock Interview Sessions boost our students Placement ratio. Our students can attend interviews confidently and Clearly."},
+          {title:"Security Features",img:"https://www.getintech.in/wp-content/uploads/2023/08/Security-150x150.png",des:"Our Building fully Equipped with High Resolution CCTV for All classrooms and Entrance Gate. So Feel free about your Children’s Security."}],
     
     projects:[{title:"Beginner",subtitle:"To-Do List App",des:"Build a simple to-do list app using ReactJS for the front-end and Java for the back-end. The app should allow users to create and manage tasks, mark tasks as complete, and delete tasks."},
               {title:"Intermediate",subtitle:"Recipe App",des:"Build a recipe app using ReactJS for the front-end and Java for the back-end. The app should allow users to search for recipes, view recipe details, and save their favorite recipes."},
@@ -612,24 +667,58 @@ export default defineComponent({
 }
 .landing_banner p::before {
     content: "";
-    background: #cfe5ff;
+    background: #4497fe;
     position: absolute;
     left: 0;
     top: 5px;
-    width: 2px;
+    width: 3px;
     height: 70%;
 }
 .mixedcolor{
-  background:linear-gradient(90deg,rgb(255, 255, 255),rgb(172, 171, 171),rgb(114, 113, 113),rgb(37,37,37),black 98.24%)
+  background:linear-gradient(90deg,rgb(2, 113, 249),rgb(79, 161, 249),rgb(134, 188, 247),rgb(215, 228, 247),rgb(252, 252, 253) 98.24%)
 }
 .banner{
-  background-image: url(../assets/Banner.jpg);
+  /* background-image: url(https://kvch.in/assets-new/img/banner/full_stack_development_banner.webp); */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #f6f6fa;
 }
 .container{
   background-image: url(../assets/corporateform_bg_2.jpg);
    background-position: fixed;
   background-size: cover;
   background-repeat: no-repeat;
+}
+#startnow{
+  background-image: url(../assets/banner-img.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.radiantthemes-separator-block{
+  background-color: #2275d5;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  overflow: hidden;
+}
+.radiantthemes-separator-block-gap{
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 20px;
+  animation: RadiantThemesSeparatorAnimation 1.5s infinite ease-in-out;
+}
+@keyframes RadiantThemesSeparatorAnimation {
+  0%{
+    left: -12px;
+  }
+  100%{
+    left: 100%;
+  }
+  
 }
 
 </style>
